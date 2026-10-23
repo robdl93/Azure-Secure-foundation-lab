@@ -1,0 +1,21 @@
+# Terraform state files - NON committare mai
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+
+# File con variabili sensibili
+terraform.tfvars
+*.tfvars
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Log
+*.log

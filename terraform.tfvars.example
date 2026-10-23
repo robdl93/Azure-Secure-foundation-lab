@@ -1,0 +1,5 @@
+# Copia questo file in terraform.tfvars e inserisci i tuoi valori.
+# NON committare terraform.tfvars nel repository!
+
+vm_admin_password = "CHANGE_ME_SECURE_PASSWORD"
+allowed_ip_for_bastion = "YOUR_PUBLIC_IP/32"
